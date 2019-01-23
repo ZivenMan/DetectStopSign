@@ -3,7 +3,9 @@
 本工程代码的功能：
 
 指定某个目录和指定视频文件格式，搜索该目录下所有的视频文件，对视频文件按指定时间间隔检测六边形红色交通标志STOP(见imgs/stop.jpeg):
+
 ![image](https://github.com/ZivenMan/DetectStopSign/blob/master/imgs/stop.jpeg)
+
 并将检测到STOP标志的时间戳(时分秒格式，形如0:12:34.341)存在同级目录下同名的txt文档里。使用python3开发，在64位Ubuntu和64位win10上测试。
 
 STOP标志越大，颜色越鲜艳，标志之外的背景越白，视频对比度越高，亮度适中，则检测效果越好。
